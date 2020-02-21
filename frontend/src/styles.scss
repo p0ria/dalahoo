@@ -1,1 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
+@import "assets/sass/fonts";
+
+:root {
+  --color-orange: #f26623;
+  --color-blue: #396a82;
+  --color-blue-dark: #1a507f;
+  --color-blue-darker: #15426A;
+  --color-green: #05a505;
+  --color-white: #fff;
+  --color-dark: #000;
+  --color-bg-gray: #e5e5e5;
+}
+
+
+body {
+  font-family: Samim, sans-serif;
+}
+
+.title {
+  color: #f26623;
+  font-size: 25px;
+  font-weight: bold;
+}
+
