@@ -1,0 +1,22 @@
+.master-page {
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-flow: column nowrap;
+
+  .header {
+    flex: 0 0 auto;
+  }
+
+  .content {
+    flex: 1;
+    display: flex;
+    align-items: stretch;
+    justify-content: stretch;
+  }
+
+  .footer {
+    flex: 0 0 500px;
+    background-color: deepskyblue;
+  }
+}

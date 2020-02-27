@@ -1,0 +1,18 @@
+.header {
+  display: flex;
+  flex-flow: column nowrap;
+  border-top: 2px solid var(--color-blue);
+
+  .header-top {
+    flex: 0 0 40px;
+  }
+
+  .header-middle {
+    flex: 0 0 86px;
+  }
+
+  .header-nav {
+    flex: 0 0 38px;
+    background-color: var(--color-blue);
+  }
+}

@@ -1,0 +1,31 @@
+@import "src/assets/sass/mixins";
+:host {
+  @include hostContentFullVerticalSpace();
+  background: #f4f4f4;
+  border-top: 1px solid #E5E5E5;
+
+  .container {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+
+    .logo {
+      flex: 0 0 auto;
+      width: 200px;
+      height: 50px;
+      background-image: url("src/assets/images/logo.png");
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
+
+    .phone-number {
+      direction: ltr;
+      color: #f26623;
+      font-weight: bold;
+      font-size: 25px;
+    }
+  }
+
+
+}

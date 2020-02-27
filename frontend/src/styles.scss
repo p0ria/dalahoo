@@ -1,7 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
 @import "assets/sass/fonts";
+@import "~normalize.css";
 
 :root {
+  --max-width: 1200px;
+
+  //Colors
   --color-orange: #f26623;
   --color-blue: #396a82;
   --color-blue-dark: #1a507f;
@@ -10,16 +14,38 @@
   --color-white: #fff;
   --color-dark: #000;
   --color-bg-gray: #e5e5e5;
+
+  // Header
+  --header-top-bg-color : #fff;
+  --header-top-title-color: #00BF00;
 }
 
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+html {
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
 
 body {
   font-family: Samim, sans-serif;
+  direction: rtl;
+  line-height: 28px;
 }
 
-.title {
-  color: #f26623;
-  font-size: 25px;
-  font-weight: bold;
+.container {
+  width: 100%;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 20px 0 30px;
 }
+
 
