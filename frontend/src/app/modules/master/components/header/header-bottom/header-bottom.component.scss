@@ -1,0 +1,18 @@
+@import "src/assets/sass/mixins";
+:host {
+  @include hostContentFullVerticalSpace();
+  position: relative;
+
+  .container {
+    display: flex;
+    flex-flow: row nowrap;
+
+    .header-nav {
+      flex: 1;
+    }
+
+    .header-search {
+      flex: 0 0 auto;
+    }
+  }
+}
