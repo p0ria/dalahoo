@@ -1,11 +1,12 @@
 @import "src/assets/sass/mixins";
 :host {
   @include hostContentFullVerticalSpace();
-  position: relative;
+
 
   .container {
     display: flex;
     flex-flow: row nowrap;
+    position: relative;
 
     .header-nav {
       flex: 1;
