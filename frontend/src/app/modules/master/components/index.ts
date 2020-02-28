@@ -7,6 +7,7 @@ import {HeaderSearchComponent} from "./header/header-bottom/header-search/header
 import {HeaderBottomComponent} from "./header/header-bottom/header-bottom.component";
 import {HeaderNavComponent} from "./header/header-bottom/header-nav/header-nav.component";
 import {HeaderNavItemComponent} from "./header/header-bottom/header-nav/header-nav-item/header-nav-item.component";
+import {HeaderMenuTourItemComponent} from "./header/header-bottom/header-nav/header-menu-item/header-menu-tour-item/header-menu-tour-item.component";
 
 export const COMPONENTS = [
   MasterComponent,
@@ -17,5 +18,6 @@ export const COMPONENTS = [
   HeaderBottomComponent,
   HeaderSearchComponent,
   HeaderNavComponent,
-  HeaderNavItemComponent
+  HeaderNavItemComponent,
+  HeaderMenuTourItemComponent
 ];

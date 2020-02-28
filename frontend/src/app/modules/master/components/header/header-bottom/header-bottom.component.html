@@ -1,7 +1,14 @@
 <div class="container">
   <app-header-nav class="header-nav">
     <app-header-nav-item title="خانه"></app-header-nav-item>
-    <app-header-nav-item title="سفرها" [hasMenu]="true"></app-header-nav-item>
+    <app-header-nav-item title="سفرها" [hasMenu]="true">
+      <app-header-menu-tour-item title="سفرهای خارجی"
+                                 imageUrl="blsm.jpg"
+                                 description="سفرهای خارج از کشور در تاریخ‌‌های معین با گروه‌های 8 تا 24 نفری"></app-header-menu-tour-item>
+      <app-header-menu-tour-item title="سفرهای خارجی"
+                                 imageUrl="6-303.jpg"
+                                 description="سفرهای خارج از کشور در تاریخ‌‌های معین با گروه‌های 8 تا 24 نفری"></app-header-menu-tour-item>
+    </app-header-nav-item>
     <app-header-nav-item title="ویزا و خدمات ویژه"></app-header-nav-item>
     <app-header-nav-item title="مقاصد دالاهو"></app-header-nav-item>
     <app-header-nav-item title="یشنهاد ویژه" [hasMenu]="true" [isVIP]="true"></app-header-nav-item>
