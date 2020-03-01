@@ -8,6 +8,14 @@ import {HeaderBottomComponent} from "./header/header-bottom/header-bottom.compon
 import {HeaderNavComponent} from "./header/header-bottom/header-nav/header-nav.component";
 import {HeaderNavItemComponent} from "./header/header-bottom/header-nav/header-nav-item/header-nav-item.component";
 import {HeaderMenuTourItemComponent} from "./header/header-bottom/header-nav/header-menu-item/header-menu-tour-item/header-menu-tour-item.component";
+import {HeaderMenuVipItemComponent} from "./header/header-bottom/header-nav/header-menu-item/header-menu-vip-item/header-menu-vip-item.component";
+import {FooterTopComponent} from "./footer/footer-top/footer-top.component";
+import {FooterMiddleComponent} from "./footer/footer-middle/footer-middle.component";
+import {FooterBottomComponent} from "./footer/footer-bottom/footer-bottom.component";
+import {FooterCopyRightComponent} from "./footer/footer-copy-right/footer-copy-right.component";
+import {FooterMiddleNavComponent} from "./footer/footer-middle/footer-middle-nav/footer-middle-nav.component";
+import {FooterMiddleNavItemComponent} from "./footer/footer-middle/footer-middle-nav/footer-middle-nav-item/footer-middle-nav-item.component";
+import {SubscriptionComponent} from "./footer/footer-middle/subscription/subscription.component";
 
 export const COMPONENTS = [
   MasterComponent,
@@ -19,5 +27,13 @@ export const COMPONENTS = [
   HeaderSearchComponent,
   HeaderNavComponent,
   HeaderNavItemComponent,
-  HeaderMenuTourItemComponent
+  HeaderMenuTourItemComponent,
+  HeaderMenuVipItemComponent,
+  FooterTopComponent,
+  FooterMiddleComponent,
+  FooterBottomComponent,
+  FooterCopyRightComponent,
+  FooterMiddleNavComponent,
+  FooterMiddleNavItemComponent,
+  SubscriptionComponent
 ];

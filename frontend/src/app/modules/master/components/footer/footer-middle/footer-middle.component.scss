@@ -1,0 +1,23 @@
+.container {
+  padding: 30px;
+  display: flex;
+  flex-flow: row nowrap;
+  border-top: 1px solid #d6d6d6;
+
+  .footer-nav {
+    flex: 1;
+  }
+
+  .e-namad {
+    width: 80px;
+    height: auto;
+    background-image: url("src/assets/images/enamad.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 50px 20px 20px;
+  }
+
+  .subscription {
+    flex: 0 0 auto;
+  }
+}

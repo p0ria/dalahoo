@@ -1,0 +1,76 @@
+.container {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  .right-side {
+    color: #008C00;
+    font-size: 17px;
+
+    .time {
+      margin-bottom: 10px;
+    }
+
+    .tel {
+      i {
+        font-style: normal;
+
+        .tel-link {
+          text-decoration: none;
+          color: #008C00;
+          font-family: SamimBold;
+        }
+      }
+
+      .tel-icon{
+        margin-right: 5px;
+      }
+
+    }
+  }
+
+  .left-side {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+
+    .title {
+      width: 205px;
+      height: 39px;
+      background-repeat: no-repeat;
+      background-image: url("src/assets/images/followus.png");
+      margin-left: 10px;
+    }
+
+    .links {
+      display: flex;
+      flex-flow: row nowrap;
+
+      .link {
+        width: 45px;
+        height: 45px;
+        display: inline-block;
+        text-align: center;
+        margin: 2px;
+        padding: 2px;
+        color: #005984;
+        border: 2px solid #069;
+        border-radius: 100%;
+        font-size: 20px;
+        transition: all .2s linear;
+        &:hover {
+          color: #fff;
+          border-color: #ff6332;
+          background-color: orange;
+        }
+
+        i {
+          padding-top: 8px;
+        }
+      }
+    }
+  }
+}

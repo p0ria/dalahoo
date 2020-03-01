@@ -1,5 +1,5 @@
 <div class="menu-item">
   <div class="title">{{title}}</div>
-  <img [src]="imageUrl" [alt]="title" class="img">
+  <div class="img" [ngStyle]="{'background-image': 'url('+ imageUrl +')'}"></div>
   <div class="desc">{{description}}</div>
 </div>

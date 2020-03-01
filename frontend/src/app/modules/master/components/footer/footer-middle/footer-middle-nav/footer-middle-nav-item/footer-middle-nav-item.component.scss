@@ -1,0 +1,29 @@
+.nav-item {
+  display: flex;
+  flex-flow: column nowrap;
+
+  .title {
+    flex: 0 0 30px;
+    font-family: SamimBold;
+    font-size: 15px;
+  }
+
+  .items {
+    flex: 1;
+    display: flex;
+    flex-flow: column wrap;
+
+    .item {
+      font-size: 13px;
+      line-height: 30px;
+      cursor: pointer;
+      &:hover {
+        color: #069;
+      }
+
+      .item-icon {
+        color: #069;
+      }
+    }
+  }
+}

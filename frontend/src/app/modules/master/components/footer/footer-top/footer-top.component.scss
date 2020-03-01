@@ -1,0 +1,27 @@
+.container {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .logo {
+    height: 50px;
+    width: 150px;
+    background-image: url("src/assets/images/logo.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .phrase {
+    font-size: 19px;
+    font-family: SamimBold;
+    line-height: 32px;
+    color: #333;
+
+    .quote {
+      color: #E18700;
+    }
+  }
+}
